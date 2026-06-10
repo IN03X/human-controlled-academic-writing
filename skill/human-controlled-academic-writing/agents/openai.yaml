@@ -1,0 +1,4 @@
+display_name: Human-Controlled Academic Writing
+short_description: Human-led academic writing with evidence gates, contracts, and strict review.
+default_prompt: Use the human-controlled academic writing workflow to plan, draft, revise, or review a paper. Start by identifying the current stage and reading the matching stage card.
+

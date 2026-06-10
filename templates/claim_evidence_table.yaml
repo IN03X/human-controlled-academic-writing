@@ -1,0 +1,12 @@
+claims:
+  - id: C001
+    claim: ""
+    manuscript_location: ""
+    evidence:
+      - source: ""
+        evidence_grade: ""  # A, B, C, D
+        supports: ""
+        limitation: ""
+    manuscript_use: ""
+    status: ""  # accepted, weaken, reject, needs_source_check
+

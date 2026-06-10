@@ -1,0 +1,33 @@
+project:
+  title: ""
+  target_type: ""   # thesis, journal paper, conference paper, report
+  target_language: ""
+  target_venue_or_template: ""
+
+human_control:
+  owner_decides:
+    - thesis
+    - scope
+    - contribution
+    - final wording
+  agent_may:
+    - ask questions
+    - search corpus
+    - propose contracts
+    - draft after alignment
+    - review strictly
+
+materials:
+  corpus_type: ""   # PaperQA2, Zotero, folder, mixed, manual
+  corpus_path_or_index: ""
+  notes_path: ""
+  draft_path: ""
+  figure_path: ""
+  code_or_data_path: ""
+
+confirmed_constraints:
+  terminology_file: ""
+  citation_style: ""
+  prose_style: ""
+  claims_not_to_make: []
+
