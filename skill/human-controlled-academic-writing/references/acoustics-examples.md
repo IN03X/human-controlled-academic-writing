@@ -39,3 +39,17 @@ Meaning-preserving:
 > The method solves a different physical problem, so it is not used as a primary evaluation target for this task.
 
 The second version preserves the boundary and states the technical reason.
+
+## Define The Task Before Its Difficulty
+
+Weak opening:
+
+> Semantic acoustic imaging is difficult because overlapping sources create class and localization ambiguity.
+
+Stronger movement:
+
+> Semantic acoustic imaging associates acoustic events with spatially resolved semantic evidence. The task becomes difficult when overlapping sources require stable class and spatial ownership.
+
+The stronger version first gives readers the focal concept, then names the
+concrete difficulty. Verify the technical wording and supporting citation before
+using either sentence in a manuscript.

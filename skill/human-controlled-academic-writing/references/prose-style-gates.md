@@ -2,7 +2,7 @@
 
 ## Trigger
 
-Load whenever producing or polishing manuscript prose.
+Load whenever producing, reviewing, or polishing manuscript prose.
 
 ## Sentence Check
 
@@ -12,6 +12,7 @@ Before presenting prose, verify:
 2. Concrete actors, objects, variables, methods, or results are named.
 3. The technical relation is explicit, such as measures, varies, records, compares, calculates, trains, maps, releases, or verifies.
 4. No shorter wording preserves the same information more clearly.
+5. Technical symbols are defined at first use, with shape or unit when omission would create ambiguity.
 
 ## Remove
 

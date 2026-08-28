@@ -19,11 +19,30 @@ Use for manuscript drafting, advisor comments, paragraph repair, transitions, re
 
 Show before/after text when the user requests it or when approval is needed to expose a consequential change.
 
+When paragraph or section structure is disputed, show the concrete rhetorical
+path before polished prose. Use a sequence such as A -> B -> C -> D in which
+each step names the idea introduced and how it leads to the next. Diagnosis or
+an allowed-content list alone is not a revision direction.
+
 ## Advisor Comments
+
+Turn advisor feedback into a small action list before revising. Separate
+claim/structure/prose issues from figure/data/code issues so that an artifact
+problem is not disguised as a text-only fix. For consequential changes, propose
+the smallest coherent batch with before/after text or a paragraph contract and
+wait for approval. Low-risk edits inside accepted meaning still follow the
+decision boundary above.
 
 For "the main line is unclear", inspect section responsibilities, paragraph claims, and contribution statements. Do not add a slogan. Separate the primary contribution from downstream uses. When a dataset is primary, benchmarks or models should remain downstream uses unless the human promotes them to co-primary contributions.
 
 For "sentences are too long", split by semantic relation rather than punctuation. Preserve compact technical definitions and formulas.
+
+For "too detailed" or "put this in the main text", preserve useful technical
+content but move it to the section where readers need it: problem and value in
+the introduction, input-output definitions in the system description, data and
+hyperparameters in experimental setup, and metrics and outcomes in results.
+Replace premature internals with a compact statement of the component's input,
+output, and purpose. Do not add words solely to make a section longer.
 
 ## Related Work
 

@@ -1,5 +1,4 @@
 # Paragraph Contract
 
-| Position | Local claim | Allowed content | Forbidden content | Reader takeaway |
-|---|---|---|---|---|
-
+| Position | Local claim | Move sequence | Allowed content | Forbidden content | Reader takeaway |
+|---|---|---|---|---|---|

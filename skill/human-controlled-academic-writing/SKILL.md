@@ -2,7 +2,7 @@
 name: human-controlled-academic-writing
 description: Use for human-controlled academic paper or 论文 planning, drafting, revision, review, and LaTeX/Overleaf synchronization. Trigger on manuscripts, related work, advisor comments, citations, academic prose, paper evidence, LaTeX, or Overleaf; not generic writing or generic file synchronization.
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
   source_attribution: "Adapted from project writing protocols and ideas from Imbad0202/academic-research-skills for a human-controlled academic writing workflow."
 ---
 
@@ -33,4 +33,3 @@ Do not narrate the classification unless it exposes an ambiguity, a risk, or a d
 ## Project Artifacts
 
 Do not create workflow files by default. Create or update only the artifact required by the selected mode, and only when it improves the current task or the user requests persistent project state.
-

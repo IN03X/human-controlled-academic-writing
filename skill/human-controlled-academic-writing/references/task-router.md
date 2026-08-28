@@ -23,8 +23,9 @@ For synchronization-only, compilation, or paper-file maintenance requests, skip 
 Load all that apply:
 
 - Literature, citations, factual claims, or source inspection -> `evidence-gate.md`
-- Drafting or polishing manuscript prose -> `prose-style-gates.md`
+- Drafting, reviewing, or polishing manuscript prose -> `prose-style-gates.md`
 - Claims about data, code, figures, tables, generated outputs, or experiment completion -> `artifact-consistency-gate.md`
+- Short conference, challenge, system, or technical papers, or an explicit request for a compact structure, four-part introduction, or advisor-ready check -> `short-paper-gate.md`
 - Overleaf, Dropbox, rclone, pull, push, or a known boundary between local and synchronized paper copies -> `manual-overleaf-sync.md`
 - Acoustics-specific examples are needed to resolve an abstract rule -> `acoustics-examples.md`
 

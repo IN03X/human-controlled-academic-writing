@@ -12,6 +12,7 @@ This repository packages a writing workflow developed through real thesis and pa
 - Language strength cannot exceed the available evidence or implementation status.
 - High-risk argument changes require approval; low-risk wording edits may proceed.
 - One primary writing mode can combine with multiple evidence, prose, artifact, and synchronization gates.
+- Compact conference and challenge papers can load a dedicated structure and advisor-readiness gate without imposing that format on every manuscript.
 
 ## Repository Layout
 
@@ -30,6 +31,7 @@ skill/
       evidence-gate.md
       prose-style-gates.md
       artifact-consistency-gate.md
+      short-paper-gate.md
       manual-overleaf-sync.md
       acoustics-examples.md
 templates/
@@ -63,4 +65,3 @@ The human owns the thesis, contribution, scope, and final judgment. The agent ma
 ## Attribution
 
 This workflow was adapted from project-specific writing protocols and from useful ideas in Imbad0202/academic-research-skills, especially Socratic planning, corpus-first screening, evidence gates, and review loops. The resulting workflow has been rewritten for a human-controlled, corpus-grounded paper-writing process.
-

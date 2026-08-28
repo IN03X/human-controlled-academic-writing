@@ -21,11 +21,16 @@ Define only what is needed to control the chapter:
 
 Use this compact form when paragraph-level control is needed:
 
-| Position | Local claim | Allowed content | Forbidden content | Reader takeaway |
-|---|---|---|---|---|
-| Section X, paragraph 1 | ... | ... | ... | Readers should understand ... |
+| Position | Local claim | Move sequence | Allowed content | Forbidden content | Reader takeaway |
+|---|---|---|---|---|---|
+| Section X, paragraph 1 | ... | A -> B -> C | ... | ... | Readers should understand ... |
 
 The local claim and takeaway must name a concrete object, relation, coverage boundary, or result. Avoid abstract outcomes such as "provides a foundation", "motivates a framework", or "shows importance".
+
+For structural alignment or advisor-driven rewriting, the move sequence is
+required. State the concrete rhetorical path, such as define the task -> explain
+its value -> contrast it with a simpler setting -> state the paper's scope. Do
+not give only an allowed-content list when the order of ideas is the problem.
 
 ## Required Output
 
