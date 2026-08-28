@@ -1,39 +1,32 @@
-# Prose Style Gates
+# Prose Quality Gate
 
-Use this file for sentence-level rewriting and final polish.
+## Trigger
 
-## Sentence Gate
+Load whenever producing or polishing manuscript prose.
 
-Before presenting manuscript prose, check each sentence:
+## Sentence Check
 
-1. What is the sentence's local claim?
-2. What concrete object or actor performs the action?
-3. What object, variable, data, method, or result is acted on?
-4. Is the relation explicit: measures, varies, records, compares, calculates, trains, maps, releases, or verifies?
-5. Can the sentence be shorter without losing information?
+Before presenting prose, verify:
 
-## Avoid
+1. The sentence serves the paragraph's local claim.
+2. Concrete actors, objects, variables, methods, or results are named.
+3. The technical relation is explicit, such as measures, varies, records, compares, calculates, trains, maps, releases, or verifies.
+4. No shorter wording preserves the same information more clearly.
 
-- Empty academic fillers: "provides a foundation", "supports", "forms a framework", "establishes a basis", "improves usability", "has important value".
-- Hidden relationships: "forms a closed loop", "builds a pipeline", "unifies the caliber".
-- Report voice: "this chapter first introduces", "the current work has completed", "the following will discuss".
-- Agent voice: "the evidence suggests", "we need to be cautious", "this can be viewed as".
-- Repeated negation, unless the user wants a strong boundary.
+## Remove
 
-## Prefer
-
-- "The experiment varies source and receiver directions, then records the measured response."
-- "The solver reads the same geometry and receiver positions, then compares its output with the measured response."
-- "The paragraph cites the cylinder experiment to show that prior measurements used controlled planes rather than full direction-pair organization."
+- Empty academic fillers such as "provides a foundation", "establishes a basis", "forms a framework", or "has important value"
+- Hidden relations such as "forms a closed loop" or "builds a pipeline" when the actual operations can be named
+- Report voice such as "this chapter first introduces" or "the following will discuss"
+- Agent and workflow voice such as "the evidence suggests", "we need to be cautious", or descriptions of search and drafting steps
+- Repeated negation unless a strong boundary is intentional
 
 ## Long Sentences
 
-Split a sentence when it combines:
-
-- background + contrast + conclusion
-- definition + evidence + limitation
-- prior work summary + current contribution
-- multiple cited fields with different roles
+Split when one sentence combines multiple semantic centers, such as background plus contrast plus conclusion, definition plus evidence plus limitation, or prior-work summary plus current contribution.
 
 Do not split formulas, compact definitions, or sentences that already express one technical relation.
 
+## Output Rule
+
+Manuscript prose addresses readers as authors. Keep evidence management, uncertainty handling, and revision commentary outside the manuscript.

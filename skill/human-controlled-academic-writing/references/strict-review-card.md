@@ -1,37 +1,40 @@
-# Strict Review Card
+# Strict Review
 
-Use this card when the user asks for review, consistency checks, final polish, or thesis risk analysis.
+## Trigger
+
+Use for manuscript review, consistency checks, final self-review, thesis-risk analysis, terminology audits, and evidence audits.
+
+Review is read-only by default. Do not edit unless the user also requests changes.
 
 ## Review Order
 
-Findings first. Do not start with praise.
+1. **Severe:** unsupported, contradictory, overbroad, or structurally misplaced claims.
+2. **Medium:** weak transitions, duplicated responsibilities, vague or inconsistent terms, and missing evidence.
+3. **Local:** long sentences, report voice, repeated wording, unclear labels, and figure or table mismatches.
 
-1. Severe issues: claims that are unsupported, contradictory, overbroad, or structurally misplaced.
-2. Medium issues: weak transitions, duplicated responsibilities, vague terms, inconsistent terminology, or missing evidence.
-3. Local issues: long sentences, report voice, repeated words, unclear labels, table/figure mismatch.
+Diagnose claim, evidence, structure, and terminology before style.
 
-## Review Questions
+## Required Checks
 
-- What is the paper's main contribution?
-- Does every chapter serve that contribution?
-- Are downstream tasks presented as downstream tasks, or do they compete with the main line?
-- Does each related-work paragraph have a local claim?
-- Do figures and tables support the conclusions drawn from them?
-- Are limitations honest without turning the paper into a progress report?
+- Can the main contribution be stated unambiguously?
+- Does every section serve it without competing for ownership?
+- Are downstream tasks presented as downstream tasks?
+- Does each related-work paragraph serve a local claim?
+- Do figures, tables, and evidence support the conclusions drawn from them?
+- Are completed work, limitations, placeholders, and future work distinguished?
 - Are terms defined once and used consistently?
 - Are conclusions limited to what the data show?
 
-## Output Format
+## Required Output
 
-Use concise, actionable findings:
+Lead with concise, actionable findings:
 
 ```text
-Severe
+Severity
 1. Location: ...
    Problem: ...
    Why it matters: ...
    Proposed direction: ...
 ```
 
-When the user wants to approve changes, provide before/after text for each proposed edit.
-
+State clearly when no material issue is found and identify remaining evidence or test gaps. Provide before/after prose only when changes are requested.

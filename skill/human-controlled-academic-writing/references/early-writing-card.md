@@ -1,38 +1,40 @@
-# Early Writing Card
+# Research And Plan
 
-Use this card for topic discovery, contribution alignment, novelty checks, and first outlines.
+## Trigger
 
-## Goal
+Use for topic discovery, contribution alignment, novelty stress tests, target-reader definition, and first outlines.
 
-Find a defensible paper, not an impressive-sounding paper.
+## Actions
 
-## Required Moves
+1. Treat the initial idea as a hypothesis, not an accepted contribution.
+2. Identify the target reader, evidence base, closest prior work, and intended contribution. Ask focused questions only for missing information.
+3. Check the proposed novelty against the available corpus or source list.
+4. Separate what prior work already covers from the gap the paper can actually support.
+5. Build an outline as an argument, not as a chronological task list.
 
-1. Treat the user's initial idea as a hypothesis.
-2. Ask focused questions until the contribution, target reader, evidence base, and closest prior work are clear.
-3. Check novelty against the available corpus or source list.
-4. Record decisions in `decision_log.md`.
-5. Do not write full manuscript prose before the user accepts the thesis and outline.
+Use an existing decision log when one is already part of the project. Create persistent planning files only when the user requests them or the work genuinely spans multiple sessions.
 
-## Contribution Check
+## Required Output
 
-Before accepting a topic, fill these:
+Produce a compact contribution brief:
 
-- One-sentence thesis:
-- Main contribution type:
-- Closest prior work:
-- What existing work already does:
-- What remains uncovered:
-- What evidence can support the claim:
-- What evidence could weaken the claim:
-- Claims that must not be made:
+- One-sentence thesis
+- Main contribution type
+- Target reader
+- Closest prior work and what it already covers
+- Remaining gap
+- Available supporting evidence
+- Evidence that could weaken the thesis
+- Claims the paper must not make
+- Proposed argument outline
 
-## Failure Conditions
+Do not draft full manuscript prose until the user accepts the thesis and broad outline.
 
-Stop and realign if:
+## Stop Conditions
 
-- The contribution is only "we apply X to Y" without a concrete gap.
-- The topic depends only on the user's intuition and not on corpus evidence.
-- The outline reads like a task checklist rather than a paper argument.
-- The paper promises experiments, data, or comparisons that do not exist.
+Stop and realign when:
 
+- the contribution is only "apply X to Y" without a concrete uncovered gap;
+- novelty depends only on intuition rather than available corpus evidence;
+- the outline describes tasks rather than a reader-facing argument;
+- the paper would promise data, experiments, or comparisons that do not exist.

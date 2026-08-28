@@ -1,4 +1,8 @@
-display_name: Human-Controlled Academic Writing
-short_description: Human-led paper writing, review, and manual Overleaf synchronization.
-default_prompt: Use the human-controlled academic writing workflow to plan, draft, revise, review, or manually synchronize a paper. Start by identifying the current stage and reading only the matching reference card.
+interface:
+  display_name: "Human-Controlled Academic Writing"
+  short_description: "Human-led paper writing, evidence checks, review, and sync."
+  default_prompt: "Use $human-controlled-academic-writing to help with this paper while preserving human control over its claims and scope."
+
+policy:
+  allow_implicit_invocation: true
 

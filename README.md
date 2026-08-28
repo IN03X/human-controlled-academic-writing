@@ -2,16 +2,16 @@
 
 A reusable Codex skill for writing academic papers under human control.
 
-This repository packages a writing workflow developed through a real thesis-writing process. Its goal is not to let an agent write a paper autonomously. The goal is to make the agent a careful research partner: it asks questions, checks evidence, drafts only after alignment, reviews harshly, and revises only after the human accepts a concrete plan.
+This repository packages a writing workflow developed through real thesis and paper work. It treats the skill as a decision system: the human controls the argument, while the agent selects the relevant writing mode and verification gates for the current task.
 
 ## What This Workflow Emphasizes
 
 - The human controls the thesis, contribution, scope, and final judgment.
-- The agent must know the current section's claim before writing.
+- Every section and paragraph must serve a known local claim.
 - Literature paragraphs must serve a specific argument, not become broad summaries.
-- Evidence must be checked before it enters manuscript prose.
-- Drafting, refinement, and review use different rules.
-- Long rule sets are split into stage cards so the agent loads only what it needs.
+- Language strength cannot exceed the available evidence or implementation status.
+- High-risk argument changes require approval; low-risk wording edits may proceed.
+- One primary writing mode can combine with multiple evidence, prose, artifact, and synchronization gates.
 
 ## Repository Layout
 
@@ -19,16 +19,19 @@ This repository packages a writing workflow developed through a real thesis-writ
 skill/
   human-controlled-academic-writing/
     SKILL.md
+    agents/
+      openai.yaml
     references/
-      stage-router.md
+      task-router.md
       early-writing-card.md
       outline-contract-card.md
-      mid-refinement-card.md
+      draft-revise-card.md
       strict-review-card.md
       evidence-gate.md
-      paragraph-contract.md
       prose-style-gates.md
-      examples-good-bad.md
+      artifact-consistency-gate.md
+      manual-overleaf-sync.md
+      acoustics-examples.md
 templates/
   project_passport.yaml
   decision_log.md
@@ -51,11 +54,11 @@ examples/
 
 Copy or symlink `skill/human-controlled-academic-writing` into your Codex skills directory, or keep this repository available and point your agent to the `SKILL.md` file.
 
-For each new paper project, copy the files under `templates/` into the project workspace and fill them gradually. The templates are intentionally lightweight; the useful part is the discipline of keeping decisions, evidence, and paragraph contracts visible.
+The repository-level `templates/` directory contains optional project artifacts. Copy only the files needed for the active task; the installed skill does not create all of them by default.
 
 ## Core Rule
 
-Before writing a sentence, the agent must know the local claim that sentence serves. If the claim is unknown, it must find the chapter or paragraph contract. If no contract exists, it must ask the human or create a proposed contract before drafting.
+The human owns the thesis, contribution, scope, and final judgment. The agent may improve execution, but it must not silently change the accepted argument.
 
 ## Attribution
 
