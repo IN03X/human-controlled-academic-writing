@@ -21,6 +21,9 @@ Choose one primary stage:
 5. **implementation-sync**  
    Checking whether manuscript claims match data, scripts, figures, tables, generated outputs, paths, or experiment status.
 
+6. **manual-overleaf-sync**
+   Pulling, pushing, checking, or preparing a manually synchronized LaTeX paper across a local working copy and Overleaf, Dropbox, or rclone.
+
 ## Step 2. Read One Card
 
 - early-writing -> `early-writing-card.md`
@@ -28,6 +31,7 @@ Choose one primary stage:
 - mid-refinement -> `mid-refinement-card.md`
 - strict-review -> `strict-review-card.md`
 - implementation-sync -> use `strict-review-card.md` plus the implementation checks in `evidence-gate.md`
+- manual-overleaf-sync -> `manual-overleaf-sync.md`
 
 ## Step 3. State The Stage
 
